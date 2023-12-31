@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20231231031556"
+  },
+  "applications": "*",
+  "entityTableName": "department",
+  "fields": [
+    {
+      "fieldName": "key",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "team",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Department",
+  "relationships": [
+    {
+      "otherEntityName": "position",
+      "relationshipName": "position",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "shiftDemand",
+      "relationshipName": "shiftDemand",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
