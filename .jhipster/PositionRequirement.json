@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "changelogDate": "20231231031356"
+  },
+  "applications": "*",
+  "entityTableName": "position_requirement",
+  "fields": [
+    {
+      "fieldName": "mandatoty",
+      "fieldType": "String"
+    }
+  ],
+  "name": "PositionRequirement",
+  "relationships": [],
+  "searchEngine": "no"
+}
